@@ -3,8 +3,8 @@ package twentiethhometask.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "system:properties",
-        "classpath:${platform}.properties"
+        "classpath:${platform}.properties",
+        "system:properties"
 })
 
 public interface BrowserstackConfig extends Config {
