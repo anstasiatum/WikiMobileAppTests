@@ -2,9 +2,10 @@ package twentiethhometask.config;
 
 import org.aeonbits.owner.Config;
 
+@Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
-        "classpath:${platform}.properties",
-        "system:properties"
+        "system:properties",
+        "classpath:${platform}.properties"
 })
 
 public interface BrowserstackConfig extends Config {
