@@ -2,9 +2,7 @@ package twentiethhometask.config;
 
 import org.aeonbits.owner.Config;
 
-@Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
-        "system:properties",
         "classpath:${platform}.properties"
 })
 
@@ -35,6 +33,5 @@ public interface BrowserstackConfig extends Config {
     String getSessionName();
 
     @Key("browserstack.hubURL")
-    @DefaultValue("https://hub.browserstack.com/wd/hub")
     String getHubURL();
 }
