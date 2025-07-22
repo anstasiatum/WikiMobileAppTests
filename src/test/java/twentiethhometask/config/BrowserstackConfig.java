@@ -33,5 +33,6 @@ public interface BrowserstackConfig extends Config {
     String getSessionName();
 
     @Key("browserstack.hubURL")
+    @DefaultValue("https://hub.browserstack.com/wd/hub")
     String getHubURL();
 }
