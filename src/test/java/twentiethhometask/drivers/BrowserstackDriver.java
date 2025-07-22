@@ -14,12 +14,11 @@ import java.net.URL;
 
 public class BrowserstackDriver implements WebDriverProvider {
 
-    BrowserstackConfig config = ConfigFactory.create(BrowserstackConfig.class, System.getProperties());
-
     @Nonnull
     @Override
     public WebDriver createDriver(@Nonnull Capabilities capabilities)  {
         MutableCapabilities caps = new MutableCapabilities();
+        BrowserstackConfig config = ConfigFactory.create(BrowserstackConfig.class);
 
         caps.setCapability("browserstack.user", config.getUserName());
         caps.setCapability("browserstack.key", config.getAccessKey());
