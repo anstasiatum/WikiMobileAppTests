@@ -6,7 +6,7 @@ import twentiethhometask.steps.Steps;
 
 import static twentiethhometask.tests.TestData.searchQuery;
 
-public class WikipediaSearchTests extends BrowserstackTestBase {
+public class WikipediaSearchTests extends TestBase {
 
     private final Steps steps = new Steps();
 

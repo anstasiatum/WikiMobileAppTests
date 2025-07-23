@@ -13,7 +13,7 @@ import twentiethhometask.drivers.BrowserstackDriver;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.open;
 
-public class BrowserstackTestBase {
+public class TestBase {
     @BeforeAll
     static void beforeAll() {
         Configuration.browser = BrowserstackDriver.class.getName();
@@ -30,7 +30,6 @@ public class BrowserstackTestBase {
     @AfterEach
     void addAttachments() {
         String sessionId = Selenide.sessionId().toString();
-
         BrowserstackAttach.pageSource();
         closeWebDriver();
 
