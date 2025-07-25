@@ -38,7 +38,7 @@ public class Steps {
         queryResultPage.openFirstSearchResult();
     }
     @Step
-    @DisplayName("Open the first article")
+    @DisplayName("The search field contains the query")
     public void checkContentsOfSearchFieldStep(String expectedText) {
         searchHeader.checkSearchFieldContents(expectedText);
     }
