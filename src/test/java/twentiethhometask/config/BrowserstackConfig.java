@@ -36,4 +36,7 @@ public interface BrowserstackConfig extends Config {
 
     @Key("browserstack.hubURL")
     String getHubURL();
+
+    @Key("browserstack.platformName")
+    String getPlatformName();
 }

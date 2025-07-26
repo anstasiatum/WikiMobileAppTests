@@ -15,14 +15,14 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
     @BeforeAll
-    static void beforeAll() {
+    static void configurationSetUp () {
         Configuration.browser = BrowserstackDriver.class.getName();
         Configuration.browserSize = null;
         Configuration.timeout = 30000;
     }
 
     @BeforeEach
-    void beforeEach() {
+    void listenerSetUp() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         open();
     }
@@ -30,6 +30,7 @@ public class TestBase {
     @AfterEach
     void addAttachments() {
         String sessionId = Selenide.sessionId().toString();
+        System.out.println(sessionId);
         BrowserstackAttach.pageSource();
         closeWebDriver();
 
