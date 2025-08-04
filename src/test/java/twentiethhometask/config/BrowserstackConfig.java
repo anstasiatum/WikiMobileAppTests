@@ -3,7 +3,7 @@ package twentiethhometask.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:default.properties"
+        "classpath:${env}.properties"
 })
 
 public interface BrowserstackConfig extends Config {
