@@ -1,4 +1,4 @@
-package twentiethhometask.drivers;
+package drivers;
 
 import com.codeborne.selenide.WebDriverProvider;
 import org.aeonbits.owner.ConfigFactory;
@@ -6,7 +6,7 @@ import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import twentiethhometask.config.BrowserstackConfig;
+import config.BrowserstackConfig;
 
 import javax.annotation.Nonnull;
 import java.net.MalformedURLException;

@@ -1,7 +1,7 @@
-package twentiethhometask.browserstackhelpers;
+package browserstackhelpers;
 
 import org.aeonbits.owner.ConfigFactory;
-import twentiethhometask.config.BrowserstackConfig;
+import config.BrowserstackConfig;
 
 import static io.restassured.RestAssured.given;
 

@@ -1,8 +1,8 @@
-package twentiethhometask.steps;
+package steps;
 
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.DisplayName;
-import twentiethhometask.pages.MainPage;
+import pages.MainPage;
 
 public class MainPageSteps {
     private final MainPage mainPage = new MainPage();
@@ -11,5 +11,12 @@ public class MainPageSteps {
     @DisplayName("Open the search text field")
     public void openSearchFieldStep() {
         mainPage.openSearchField();
+    }
+
+    @Step
+    @DisplayName("Check In the news widget")
+    public void checkInTheNewsHeaderStep(String expectedTitle) {
+        mainPage.checkInTheNewsTitle(expectedTitle);
+        mainPage.checkInTheNewsDateIsCorrect();
     }
 }

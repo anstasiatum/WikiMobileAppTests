@@ -1,4 +1,4 @@
-package twentiethhometask.pages;
+package pages;
 
 import com.codeborne.selenide.ElementsCollection;
 

@@ -1,8 +1,8 @@
-package twentiethhometask.steps;
+package steps;
 
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.DisplayName;
-import twentiethhometask.pages.ArticlePage;
+import pages.ArticlePage;
 
 public class ArticlePageSteps {
     private final ArticlePage articlePage = new ArticlePage();

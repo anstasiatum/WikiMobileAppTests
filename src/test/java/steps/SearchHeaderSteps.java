@@ -1,8 +1,8 @@
-package twentiethhometask.steps;
+package steps;
 
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.DisplayName;
-import twentiethhometask.pages.components.SearchHeader;
+import pages.components.SearchHeader;
 
 public class SearchHeaderSteps {
     private final SearchHeader searchHeader = new SearchHeader();

@@ -1,4 +1,4 @@
-package twentiethhometask.config;
+package config;
 
 import org.aeonbits.owner.Config;
 
