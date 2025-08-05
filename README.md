@@ -82,7 +82,7 @@
   </table>
 </div>
 
-- Developed using **Java 21**, **JUnit**, and **Selenide**
+- Developed using **Java 21**, **JUnit**, **Selenide**, and **Appium**
 - Built via **Gradle**
 - Integrated build with **Jenkins**
 - Sending notifications to **Telegram**
