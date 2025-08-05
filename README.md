@@ -47,7 +47,7 @@
       </td>
       <td align="center" width="110">
         <a href="https://appium.io" target="_blank">
-          <img src="readmemedia/appium.svg" width="48" height="48" alt="Appium" />
+          <img src="readmemedia/AppiumLogo.png" width="48" height="48" alt="Appium" />
         </a>
         <br>Appium
       </td>
