@@ -1,6 +1,6 @@
-<img width="1924" height="929" alt="image" src="https://github.com/user-attachments/assets/48e34511-e8af-4876-a4e3-8fc0826b0c19" /><p align="center">
+<p align="center">
   <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
-    <img src="readmemedia/wikipedia_logo.png" width="200" alt="WikipediaLogo">
+    <img src="readmemedia/wikipedia_logo.png" width="500" alt="WikipediaLogo">
   </a>
 </p>
 
@@ -40,8 +40,14 @@
         <br>Gradle
       </td>
       <td align="center" width="110">
+        <a href="https://appium.io" target="_blank">
+          <img src="readmemedia/Appium_Logo.png" width="48" height="48" alt="Appium" />
+        </a>
+        <br>Appium
+      </td>
+      <td align="center" width="110">
         <a href="https://selenide.org/" target="_blank">
-          <img src="readmemedia\Selenide.svg" width="48" height="48" alt="Selenide" />
+          <img src="readmemedia/Selenide.svg" width="48" height="48" alt="Selenide" />
         </a>
         <br>Selenide
       </td>
@@ -76,9 +82,8 @@
   </table>
 </div>
 
-- Developed using **Java 21**, **JUnit**, and **Selenide**
+- Developed using **Java 21**, **JUnit**, **Selenide**, and **Appium**
 - Built via **Gradle**
-- Run using **Selenoid** containers
 - Integrated build with **Jenkins**
 - Sending notifications to **Telegram**
 
