@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
-    <img src="readmemedia/wikipedia_logo.png" width="200" alt="WikipediaLogo">
+    <img src="readmemedia/wikipedia_logo.png" width="500" alt="WikipediaLogo">
   </a>
 </p>
 
