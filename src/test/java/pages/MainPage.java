@@ -16,9 +16,10 @@ import static io.appium.java_client.AppiumBy.accessibilityId;
 import static io.appium.java_client.AppiumBy.id;
 
 public class MainPage {
-    public static final SelenideElement searchButton = $(accessibilityId("Search Wikipedia"));
-    public static final SelenideElement inTheNewsTitle = $(id("org.wikipedia.alpha:id/view_card_header_title"));
-    public static final SelenideElement inTheNewsDate = $(id("org.wikipedia.alpha:id/view_card_header_subtitle"));
+    private static final SelenideElement searchButton = $(accessibilityId("Search Wikipedia"));
+    private static final SelenideElement inTheNewsTitle = $(id("org.wikipedia.alpha:id/view_card_header_title"));
+    private static final SelenideElement inTheNewsDate = $(id("org.wikipedia.alpha:id/view_card_header_subtitle"));
+    private static final SelenideElement moreOptionsButton = $(id("org.wikipedia.alpha:id/menu_overflow_button"));
 
     public void openSearchField() {
         searchButton.click();
@@ -44,5 +45,9 @@ public class MainPage {
 
         LocalDate today = LocalDate.now();
         assert parsedDate.equals(today) : "Expected today's date: " + today + ", but found: " + parsedDate;
+    }
+
+    public void clickMoreOptions() {
+        moreOptionsButton.click();
     }
 }

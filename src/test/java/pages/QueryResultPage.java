@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.$$;
 import static io.appium.java_client.AppiumBy.id;
 
 public class QueryResultPage {
-    public static final ElementsCollection searchResults = $$(id("org.wikipedia.alpha:id/page_list_item_title"));
+    private static final ElementsCollection searchResults = $$(id("org.wikipedia.alpha:id/page_list_item_title"));
 
     public void searchResultPageContainsResults(boolean shouldHaveResults) {
         searchResults.shouldHave(sizeGreaterThan(0));
