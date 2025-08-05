@@ -40,16 +40,16 @@
         <br>Gradle
       </td>
       <td align="center" width="110">
-        <a href="https://selenide.org/" target="_blank">
-          <img src="readmemedia\Selenide.svg" width="48" height="48" alt="Selenide" />
-        </a>
-        <br>Selenide
-      </td>
-      <td align="center" width="110">
         <a href="https://appium.io" target="_blank">
           <img src="readmemedia/AppiumLogo.png" width="48" height="48" alt="Appium" />
         </a>
         <br>Appium
+      </td>
+      <td align="center" width="110">
+        <a href="https://selenide.org/" target="_blank">
+          <img src="readmemedia\Selenide.svg" width="48" height="48" alt="Selenide" />
+        </a>
+        <br>Selenide
       </td>
     </tr>
     <tr>
