@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Red Flag Marketing Site Automated Tests
+# Wikipedia Mobile App Automated Tests
 
 ## 📜 Summary
 - [Stack](#-stack)
