@@ -1,4 +1,4 @@
-<img width="1924" height="929" alt="image" src="https://github.com/user-attachments/assets/48e34511-e8af-4876-a4e3-8fc0826b0c19" /><p align="center">
+<p align="center">
   <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
     <img src="readmemedia/wikipedia_logo.png" width="200" alt="WikipediaLogo">
   </a>
@@ -78,7 +78,6 @@
 
 - Developed using **Java 21**, **JUnit**, and **Selenide**
 - Built via **Gradle**
-- Run using **Selenoid** containers
 - Integrated build with **Jenkins**
 - Sending notifications to **Telegram**
 
